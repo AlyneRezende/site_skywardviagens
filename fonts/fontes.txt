@@ -1,0 +1,24 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+
+font-family: 'Nanum Gothic', sans-serif;
+
+@font-face {
+    font-family: Nexa;
+    src: url(/fonts/Nexa-ExtraLight.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+--cor0: #74CCAD;
+--cor1: #6ABABA;
+--cor2: #508DDC;
+--cor3: #599DD0;
+--cor4: #294152;
+--cor5: #F0FCF8;
+
+
+

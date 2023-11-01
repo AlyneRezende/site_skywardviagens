@@ -1,0 +1,200 @@
+:root {
+    --cor0: #74CCAD;
+    --cor1: #6ABABA;
+    --cor2: #508DDC;
+    --cor3: #599DD0;
+    --cor4: #294152;
+    --cor5: #F0FCF8;
+
+    --font-extra: Arial, Verdana, sans-serif;
+    --font-gothic: 'Nanum Gothic', sans-serif;
+    --font-nexa: 'Nexa', sans-serif;
+
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(/fonts/Nexa-ExtraLight.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor5);
+    background-image:url('imagens/logo_skyward-04.png');
+    background-position: center;
+    background-repeat: none;
+    background-size: 100%;
+    font-family: var(--font-nexa);
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
+}
+
+header {
+    padding-top: 40px;
+    min-height: 100px;
+    background-image: linear-gradient(to left, var(--cor0), var(--cor2));
+    text-align: center;
+}
+
+.header {
+    max-height: 200px;
+}
+
+nav {
+    background-image: linear-gradient(to left, var(--cor0), var(--cor2));
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow: 1px 1.5px 0 rgba(0, 0, 0, 0.225);
+}
+
+nav li {
+    display: inline;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--cor4);
+    transition-duration: 0.5s;
+}
+
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.249);
+    padding: 7px;
+    border-radius: 3px;
+    color: var(--cor5);
+}
+
+main {
+    min-width: 250px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--cor5);
+}
+
+h1,
+h2 {
+    font-family: var(--font-gothic);
+    font-weight: bold;
+}
+
+h2 {
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1.5px 0 #6ababa84;;
+}
+
+p,
+ul {
+    padding: 50px;
+}
+
+form {
+    padding: 100px;
+}
+
+.services li {
+    padding: 20px;
+}
+
+.container02 ul {
+    padding: 90px;
+}
+
+.subtittle01 h2 {
+    display: flex;
+    padding: 25px 50px 50px 50px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.subtittle02 h2 {
+    display: flex;
+    padding: 50px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.subtittle03 h2 {
+    display: flex;
+    padding: 50px 50px 10px 50px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.image01 {
+    max-width: 680px;
+    max-height: 680px;
+    padding: 0px 50px 0px 0px;
+}
+
+.image02 {
+    max-width: 680px;
+    max-height: 680px;
+    padding: 0px 0px 0px 50px;
+}
+
+.container01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.social-links{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.social-links img {
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin: 4px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 2px;
+}
+
+footer {
+    background-color: var(--cor4);
+    background-image: linear-gradient(to left, var(--cor0), var(--cor2));
+    color: var(--cor4);
+    padding: 1px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
